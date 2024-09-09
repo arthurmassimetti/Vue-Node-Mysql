@@ -1,5 +1,5 @@
 <template>
-    <form action="">
+    <form action="" @submit="enviarForumulario($event)">
         <div>
             <InputText/>
         </div>
@@ -20,7 +20,15 @@ export default {
     components: {
         InputText,
         Submit
-    }
+    },
+    methods: {
+        enviarForumulario(e){
+
+            e.preventDefault();
+            
+            console.log('enviarForumulario');
+        }
+    },
 }
 </script>
 
