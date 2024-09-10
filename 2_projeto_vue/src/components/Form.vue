@@ -1,10 +1,10 @@
 <template>
     <form action="" @submit="enviarForumulario($event)">
         <div>
-            <InputText/>
+            <input type="text" v-model="name">
         </div>
         <div>
-            <InputText/>
+            <input type="text" v-model="email">
         </div>
         <div>
             <Submit/>
@@ -21,11 +21,16 @@ export default {
         InputText,
         Submit
     },
+    data(){
+        return {
+            name: "Arthur",
+            email: "arthursartori27@gmail.com"
+        }
+    },
     methods: {
         enviarForumulario(e){
 
             e.preventDefault();
-            
             console.log('enviarForumulario');
         }
     },
