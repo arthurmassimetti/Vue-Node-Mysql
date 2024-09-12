@@ -68,16 +68,5 @@ Um processo de limpeza é agendado para rodar durante a noite e remove registros
 5. **Manutenção e Limpeza dos Dados**:
    - O processo de limpeza remove registros antigos de acordo com as regras de retenção, garantindo que o volume de dados não cresça excessivamente.
 
-## Como Contribuir
-
-Se você deseja contribuir com o projeto, siga os passos abaixo:
-
-1. Faça um fork do repositório.
-2. Crie uma branch para a sua feature ou correção (`git checkout -b minha-feature`).
-3. Faça o commit das suas alterações (`git commit -m 'Adiciona nova feature'`).
-4. Faça o push para a branch (`git push origin minha-feature`).
-5. Abra um Pull Request.
-
-## Licença
 
 Este projeto está licenciado sob os termos da licença MIT.
